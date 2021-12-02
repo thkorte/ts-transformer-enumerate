@@ -1,1 +1,1 @@
-export function enumerate<T extends string>(): { [K in T]: K };
+export function enumerate<T extends string>(): Array<T>;
